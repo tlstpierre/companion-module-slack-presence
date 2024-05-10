@@ -1,0 +1,31 @@
+{
+	"id": "slack-presence",
+	"name": "slack-presence",
+	"shortname": "Presence",
+	"description": "Slack presence and status",
+	"version": "0.0.0",
+	"license": "MIT",
+	"repository": "git+https://github.com/bitfocus/companion-module-slack-presence.git",
+	"bugs": "https://github.com/bitfocus/companion-module-slack-presence/issues",
+	"maintainers": [
+		{
+			"name": "Tim St. Pierre",
+			"email": "tim@ssgc.ca"
+		}
+	],
+	"legacyIds": [],
+	"runtime": {
+		"type": "node18",
+		"api": "nodejs-ipc",
+		"apiVersion": "0.0.0",
+		"entrypoint": "../index.js"
+	},
+	"manufacturer": "Slack",
+	"products": [
+		"User Presence"
+	],
+	"keywords": [
+		"Productivity",
+		"Communication"
+	]
+}

@@ -1,0 +1,21 @@
+{
+	"name": "slack-presence",
+	"version": "1.0.0",
+	"main": "index.js",
+  "type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/bitfocus/companion-module-slack-presence.git"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"@companion-module/base": "~1.4.1",
+		"yarn": "^1.22.21"
+	},
+	"devDependencies": {
+		"@companion-module/tools": "^1.2.0"
+	}
+}
